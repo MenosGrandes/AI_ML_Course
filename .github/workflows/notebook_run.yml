@@ -18,7 +18,7 @@ jobs:
         SECRETS: ${{ toJson(secrets) }}
         GITHUB: ${{ toJson(github) }}
       with:
-        notebook: "${{ github.repository }}/ex_1/ex_1_house.ipynb"
+        notebook: "${{ github.workspace }}/ex_1/ex_1_house.ipynb"
         params: "PATHTOPARAMS.json"
         isReport: False
         poll: True

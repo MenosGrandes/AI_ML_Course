@@ -1,0 +1,12 @@
+seaborn
+pandas
+numpy
+scikit-learn
+matplotlib
+missingno
+colorlog
+rich
+jupyter_contrib_nbextensions
+jupyter_nbextensions_configurator
+tensorflow
+keras
